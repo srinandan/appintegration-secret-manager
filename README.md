@@ -4,7 +4,7 @@ This sample repository demonstrates how to a secret in secret manager from [Appl
 
 # Prerequisites
 
-* The integration version JSON is downloaded [here](./src/executeworkflows.json)
+* The integration version JSON is downloaded [here](./src/secret-manager.json)
 * This repo uses a custom cloud builder called `integrationcli-builder`. , based on [integrationcli](https://github.com/GoogleCloudPlatform/application-integration-management-toolkit) and gcloud
 
 # Configuring Cloud Build
