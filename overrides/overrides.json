@@ -1,0 +1,36 @@
+{
+	"task_overrides": [
+		{
+			"task": "GenericRestV2Task",
+			"taskId": "3",
+			"parameters": {
+				"url": {
+					"key": "url",
+					"value": {
+						"stringValue": "https://secretmanager.googleapis.com/v1/projects/$_project$/secrets/$_secret_name$/versions/$_secret_version$:access"
+					}
+				}
+			}
+		}
+	],
+	"param_overrides": [
+		{
+			"key": "_project",
+			"defaultValue": {
+				"stringValue": "ADD-PROJECT-ID"
+			}
+		},
+		{
+			"key": "_secret_version",
+			"defaultValue": {
+				"stringValue": "1"
+			}
+		},
+		{
+			"key": "_secret_name",
+			"defaultValue": {
+				"stringValue": "ADD-SECRET-NAME"
+			}
+		}
+	]
+}
